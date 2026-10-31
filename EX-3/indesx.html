@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Timetable</title>      
+</head>
+<body>
+    <h1 align="center">ABC College of Engineering</h1>
+    <h2 align="center">Class Timetable - BTech 1st Year</h2>
+    <table border="1" align="center"></table>
+        <caption>Weekly College Timetable</caption>
+
+        <thhread>
+            <th>Day</th>
+            <th>9:00-10:00</th>
+            <th>10:00-11:00</th>
+            <th>11:00-11:30</th>
+            <th>11:30-12:30</th>
+            <th>12:30-1:30</th>
+            <th>1:30-2:30</th>
+            <th>2:30-3:30</th>
+        </thhread>
+
+        <tr>
+            <th>Monday</th>
+            <td>Mathematics</td>
+            <td>Physics</td>
+            <td rowspan="5" class="break">BREAK</td>
+            <td>Programming</td>
+            <td>English</td>
+            <td colspan="2" class="lab">C++ Lab</td>
+        </tr>
+
+        <tr>
+            <th>Tuesday</th>
+            <td>Physics</td>
+            <td>Mathematics</td>
+            <td>English</td>
+            <td>Electronics</td>
+            <td>Programming</td>
+            <td>Sports</td>
+        </tr>
+
+        <tr>
+            <th>Wednesday</th>
+            <td>Programming</td>
+            <td>Electronics</td>
+            <td colspan="2" class="lab">Physics Lab</td>
+            <td>Mathematics</td>
+            <td>English</td>
+        </tr>
+
+        <tr>
+            <th>Thursday</th>
+            <td>Mathematics</td>
+            <td>Programming</td>
+            <td>Physics</td>
+            <td>English</td>
+            <td colspan="2" class="lab">Electronics Lab</td>
+        </tr>
+
+        <tr>
+            <th>Friday</th>
+            <td>Electronics</td>
+            <td>Physics</td>
+            <td>Mathematics</td>
+            <td>Programming</td>
+            <td colspan="2">
+                <table class="nested">
+                    <tr>
+                        <th>Activity</th>
+                        <th>Time</th>
+                    </tr>
+                    <tr>
+                        <td>Library</td>
+                        <td>2 Hours</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Saturday</th>
+            <td colspan="2">Workshop</td>
+            <td class="break">BREAK</td>
+            <td colspan="2">Project Work</td>
+            <td colspan="2">Sports</td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
